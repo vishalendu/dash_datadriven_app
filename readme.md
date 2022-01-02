@@ -1,6 +1,6 @@
 ### Dash data driven app
 
-Simple Plotly Dash based application written with data in mind
+Simple Plotly Dash based application written with data in mind<br>
 The application uses two data files 
 * data/index.csv
 * data/details.csv
