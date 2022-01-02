@@ -87,8 +87,7 @@ def update(*button_clicks):
 
 @app.callback(
     Output("modal", "is_open"),
-    Input("close", "n_clicks"),
-    suppress_callback_exceptions=True
+    Input("close", "n_clicks")
 )
 def toggle_modal1(c1):
     if c1:
